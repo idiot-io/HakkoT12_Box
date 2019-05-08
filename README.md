@@ -1,5 +1,5 @@
 # HakkoT12_Box
-Multiple Soldering stations
+Multiple Soldering stations, based on the popular STC-T12 kit
 
 ![](https://i.imgur.com/1L2KwNB.png)
 
