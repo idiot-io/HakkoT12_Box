@@ -4,11 +4,11 @@ $fn=50;
 nozzle=0.8;
 wall=nozzle*2;
 clearance=0.1;
-//�������
+//
 h=40;
-x=82.5; //���������� ������ ��������� ��� �������� ��� ��������� ������
+x=82.5; //
 y=30;
-powersupply_y=28;
+DCbarrel=6; //PowerSupply Mount Socket
 module border_support() {
 difference(){
 cube([wall*2,wall*2,h/2+4]);
@@ -38,7 +38,7 @@ module rearpanel(){
 	difference(){
 	cube([x,h,wall]);
 	//translate([30,h/2-25/2,-0.5]) cube([28,25,wall+1]);
-    translate([28+x/2-22.5/2-16.75,h/2,-0.5]) cylinder(d=8, h=wall+1);
+    translate([28+x/2-22.5/2-16.75,h/2,-0.5]) cylinder(d=DCbarrel, h=wall+1);
 	}
 }
 
