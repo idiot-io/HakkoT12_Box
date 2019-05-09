@@ -8,7 +8,7 @@ clearance=0.1;
 h=40;
 x=82.5; //
 y=30;
-DCbarrel=6; //PowerSupply Mount Socket
+DCbarrel=6; //PowerSupply Mount Socket hole
 module border_support() {
 difference(){
 cube([wall*2,wall*2,h/2+4]);
