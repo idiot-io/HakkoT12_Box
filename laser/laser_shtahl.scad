@@ -21,7 +21,7 @@ topThickness = 1.6;
 
 // define inner volume in mm
 length = 150; 
-width = 27;
+width = 27.5;
 height = 240; // spacer + board + spacer + little extra
 
 thickness = 3; // thickness of material
@@ -105,8 +105,8 @@ module 3d() {
 }
 
 module mixtape(){
-    PCB();
-    parts();
+    //PCB();
+    //parts();
 }
 
 module PCB(){
